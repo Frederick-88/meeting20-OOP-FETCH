@@ -27,7 +27,7 @@ const getData = () => {
         .then((respond) => {
             console.log(respond.data);
             const dimulai = document.querySelectorAll(".pantai").length
-            const sampaiKe = 6 + dimulai
+            const sampaiKe = 8 + dimulai
 
 
             // TAMPILAN HTML
@@ -53,7 +53,7 @@ const displayISI = (item) => {
     const imgURL = 'http://35.240.201.155:3000'
     let tujuan = document.getElementById("displayHTML")
     let isiHTML =
-        `<div class="col-sm-4 mb-5 pantai">
+        `<div class="col-sm-3 mb-5 pantai">
 
         <div class="card">
   <img src="${imgURL}/${item.images}" class="card-img-top" alt="..." >
